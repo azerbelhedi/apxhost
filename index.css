@@ -1,0 +1,71 @@
+.apx-title-section{
+    height : 100vh ;
+    width : 100vw ;
+    /* background-image : linear-gradient(45deg , #A2E0E0 , rgb(19, 157, 192) ) ; */
+    background-image: url("https://uuvldo365rg19bum-zippykid.netdna-ssl.com/wp-content/uploads/2016/01/consulting-1600x560.jpg") ;
+    background-size : cover ;
+    background-attachment: fixed ;
+}
+
+.apx-title-section h1{
+    position: relative ;
+    top : 45% ;
+    width : max-content ;
+    margin-left : auto ;
+    margin-right : auto ;
+    font-size: 8vw ;
+    font-weight : bold ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color :rgb(0, 0, 0) ;
+    text-shadow: 1px 1px 5px rgb(53, 58, 61) ;
+}
+
+@media only screen and (max-width : 600px){
+    .apx-title-section h1{
+        font-size: 15vw ;
+    }
+}
+
+.apx-fact-box{
+    background-color : rgb(59, 175, 243) !important;
+    box-shadow: 1px 1px 5px rgb(78, 78, 78) ;
+    transition: 0.7s ;
+}
+
+.apx-fact-box:hover{
+    cursor: pointer;
+    transform: scale(1.04) ;
+    transition: 0.7s ;
+    box-shadow: 1px 1px 10px rgb(26, 25, 25) ;
+}
+
+
+@media only screen and (max-width : 980px){
+    .apx-nav-bar{
+        background-color : whitesmoke !important;
+        position : fixed !important;
+        z-index: 80 !important;
+        box-shadow : 1px 1px 5px black !important;
+    }
+    
+}
+
+.apx-nav-bar{
+    background-color: white !important ;
+    z-index: 80 !important;
+    opacity: 1 !important;  
+    width : 100% !important;
+}
+
+
+.apx-nav-item{
+    color : black !important;
+}
+
+
+.apx-contact-button{
+    background-image: linear-gradient(45deg , #A2E0E0 ,rgb(79, 194, 194) ) ;
+    border : none !important;
+    box-shadow: 1px 1px 5px rgb(65, 82, 78) ;
+    color : black !important;
+}
